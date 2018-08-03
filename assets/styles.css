@@ -1,0 +1,273 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	margin: 0px;
+}
+
+header {
+	background-color: #3b5998;
+	background-image: linear-gradient(#4e69a2, #3b5998 50%);
+	border-bottom: 1px solid #133783;
+	min-height: 42px;
+	position: relative;
+	z-index: 1;
+}
+.heading {
+	width: 60%;
+}
+
+.login {
+	margin-top: 10px;
+}
+
+.left {
+	flex-basis: 55%;
+}
+
+.right {
+	flex-basis: 45%;
+}
+
+.left .text {
+	width: 60%;
+	float: right;
+	padding-right: 100px;
+}
+
+.left .text h3 {
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 35px;
+	word-spacing: -1px;
+}
+
+.header {
+	display: flex;
+	padding: 0 15%;
+}
+
+.heading-container {
+	color: #fff;
+}
+
+.content {
+	display: flex;
+	background: linear-gradient(white, #d3d8e8);
+	padding-bottom: 30px;
+}
+
+.login-form label {
+	color: #fff;
+	font-weight: normal;
+	padding-left: 1px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-form label a {
+	color: #9cb4d8;
+	font-weight: normal;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	margin: 0;
+}
+
+.login-form table tr td {
+	padding: 0 14px 0 0;
+	text-align: left;
+}
+
+.login-submit {
+	border: 0;
+	color: #4b4f56;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	background-color: #4267b2;
+	border-color: #29487d;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: none;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.right .heading-signup h1 {
+	margin-bottom: 0px;
+}
+
+.right .heading-signup h3 {
+	margin-top: 10px;
+	font-weight: normal;
+}
+
+.signup-form {
+	display: inline-block;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="password"] {
+	border: 1px solid #bdc7d8;
+	background-color: #fff;
+	position: relative;
+	border-color: #bdc7d8;
+	border-radius: 5px;
+	margin: 0;
+	font-size: 18px;
+	padding: 8px 10px;
+}
+
+.signup-form .large {
+	width: 93% !important;
+}
+
+.signup-form .person-name {
+	display: flex;
+}
+
+.signup-form .person-name .first-name {
+	margin-right: 15px;
+}
+
+.signup-form .phone-email {
+	width: 100%;
+	margin-right: 10px;
+}
+
+.form-control {
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 70%;
+}
+
+.form-control .birthday {
+	display: flex;
+}
+
+select {
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	background-color: rgb(248, 248, 248);
+}
+
+.birthday .info a {
+	font-size: 11px;
+	display: inline-block;
+	max-width: 140px;
+	margin-left: 10px;
+}
+
+a {
+	color: #365899;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.form-control .gender {
+	margin-top: 10px;
+	display: flex;
+}
+
+.form-control .female {
+	flex-basis: 20%;
+}
+
+.policy .policy-content p {
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+}
+
+.signup-button .btn-signup {
+	font-size: 19px;
+	font-weight: bold !important;
+	letter-spacing: normal;
+	line-height: 126%;
+	min-width: 194px;
+	padding: 7px 20px;
+	text-align: center;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+}
+
+.pages-message {
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+footer {
+	margin-top: 40px;
+}
+
+footer .language .list-language {
+	font-size: 12px;
+	padding-left: 0px;
+}
+
+footer .language .list-language li {
+	display: inline;
+	padding-right: 10px;
+}
+
+footer .language {
+	padding: 0 15%;
+	margin-top: 10px;
+}
+
+footer .language .language-content {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #dddfe2;
+}
+
+.form-control .light {
+	font-weight: normal;
+}
+
+.footer .content-info ul li {
+	display: inline-block;
+	padding-right: 23px;
+	padding-bottom: 5px;
+}
+
+.footer .content-info ul {
+	font-size: 11px;
+	padding-left: 0px;
+}
+
+.footer .content-info {
+	padding: 0 15%;
+}
